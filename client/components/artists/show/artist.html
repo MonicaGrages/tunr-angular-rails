@@ -1,0 +1,11 @@
+Artist Show Page
+<h4>{{$ctrl.artist.name}}<small>{{$ctrl.artist.nationality}}</small></h4>
+<img ng-src="{{$ctrl.artist.photo_url}}">
+<br>
+<a ui-sref="home">Back</a>
+
+<ul>
+  <li ng-repeat="song in $ctrl.songs">
+    {{song.title}}
+  </li>
+</ul>

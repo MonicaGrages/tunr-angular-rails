@@ -9,6 +9,8 @@ function ArtistsController(artistsService){
       vm.artists = response;
     });
   }
+
+
 }
 
 export default ArtistsController;
